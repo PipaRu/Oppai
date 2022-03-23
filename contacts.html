@@ -10,8 +10,17 @@
         * {margin: 0; padding: 0;}
         #container {height: 100%; width:100%; font-size: 0;}
         #content, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-        #content {width: 75%; background: transparent;}
-        #right {width: 25%; background: rgba(0, 0, 0, 0.5);}
+        #content {width: 84%; background: transparent;}
+        #right {width: 16%; background: rgba(0, 0, 0, 0.5); height: 100%}
+        #footer {
+            position: fixed;
+            background: rgba(0, 0, 0, 0.5);
+            right: 0; bottom: 0;
+            padding: 10px;
+            color: #eaeaea;
+            width: 100%;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -28,8 +37,22 @@
 </div>
 
 <div id="container">
-    <div id="content">
-        Контакты
+    <div id="content" style="background: rgba(0, 0, 0, 0.5)">
+        <div id="suke">
+            <h1>Напишите нам</h1>
+
+            <input type="text" size="30" placeholder="Ваше Имя"/>
+            <input type="text" size="30" placeholder="Email"/>
+            <input type="text" size="30" placeholder="Тема"/>
+            <input type="text" size="30" placeholder="Запрос">
+            <input type="submit" value="Отпаравить"/>
+        </div>
+        <div id="about">
+            <h2>О нас:</h2>
+            <h2>Номер телефона: +7 (232) 364-56-00</h2>
+            <h2>Адрес: г. Урюпинск, Ленина 75</h2>
+            <h2>Email: dakimaku@gmail.com</h2>
+        </div>
     </div>
     <div id="right">
         <div class="widget" style="width: min-content">
@@ -45,8 +68,8 @@
 </div>
 
 
-<div class="footer">
-
+<div id="footer">
+    &#169 Все права защищены
 </div>
 
 </body>
