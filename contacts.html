@@ -7,15 +7,41 @@
     <link rel="stylesheet" type="text/css" href="menu.css">
     <link rel="stylesheet" type="text/css" href="background.css">
     <style type="text/css">
-        * {margin: 0; padding: 0;}
-        #container {height: 100%; width:100%; font-size: 0;}
-        #content, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-        #content {width: 84%; background: transparent;}
-        #right {width: 16%; background: rgba(0, 0, 0, 0.5); height: 100%}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            height: 100%;
+            width: 100%;
+            font-size: 0;
+        }
+
+        #content, #right {
+            display: inline-block;
+            *display: inline;
+            zoom: 1;
+            vertical-align: top;
+            font-size: 12px;
+        }
+
+        #content {
+            width: 84%;
+            background: transparent;
+        }
+
+        #right {
+            width: 16%;
+            background: rgba(0, 0, 0, 0.5);
+            height: 100%
+        }
+
         #footer {
             position: fixed;
             background: rgba(0, 0, 0, 0.5);
-            right: 0; bottom: 0;
+            right: 0;
+            bottom: 0;
             padding: 10px;
             color: #eaeaea;
             width: 100%;
@@ -29,7 +55,6 @@
 <video autoplay muted loop id="myVideo">
     <source src="https://genshin.mihoyo.com/_nuxt/videos/3e78e80.mp4" type="video/mp4">
 </video>
-
 
 
 <div class="header">
@@ -50,7 +75,7 @@
         <div id="about">
             <h2>О нас:</h2>
             <h2>Номер телефона: +7 (232) 364-56-00</h2>
-            <h2>Адрес: г. Урюпинск, Ленина 75</h2>
+            <h2>Адрес: г. Урюпинск, пр. Ленина 85</h2>
             <h2>Email: dakimaku@gmail.com</h2>
         </div>
     </div>
@@ -65,6 +90,15 @@
             </ul>
         </div>
     </div>
+</div>
+
+<div class="map" style="position:absolute; left: 100px; top: 300px; overflow:hidden; align-content: center; "><a
+        href="https://yandex.ru/maps/10981/uryupinsk/?utm_medium=mapframe&utm_source=maps"
+        style="color:#eee;font-size:12px;position:absolute;top:0px;">Урюпинск</a><a
+        href="https://yandex.ru/maps/10981/uryupinsk/house/prospekt_lenina_85/YEsYdgZiS0cGQFtqfXt4eX1gYw==/?ll=42.012932%2C50.798116&utm_medium=mapframe&utm_source=maps&z=19.8"
+        style="color:#eee;font-size:12px;position:absolute;top:14px;">Проспект Ленина, 85 — Яндекс Карты</a>
+    <iframe src="https://yandex.ru/map-widget/v1/-/CCUByTH8-C" width="1400" height="500" frameborder="1"
+            allowfullscreen="true" style="position:relative;"></iframe>
 </div>
 
 
