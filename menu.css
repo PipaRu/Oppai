@@ -1,4 +1,4 @@
-* {box-sizing: border-box; margin: 0; align-content: center; height: 100%}
+* {box-sizing: border-box; margin: 0; align-content: center;}
 .widget {
     padding: 20px;
     background: transparent;
@@ -41,10 +41,8 @@
     color: #ffffff;
     margin-right: 14px;
 }
-.widget li:nth-child(1):before {content:"\f1fc";}
-.widget li:nth-child(2):before {content:"\f0d0";}
-.widget li:nth-child(3):before {content:"\f0cd";}
-.widget li:nth-child(4):before {content:"\f028";}
-.widget li:nth-child(5):before {content:"\f03d";}
 
+.widget a:hover {
+    color: #05ec9b;
+}
 /* Help */
